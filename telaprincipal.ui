@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>482</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>541</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(3, 104, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Confira o clima de uma cidade: </string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(202, 205, 255);
+border-radius: 8px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>40</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(28,28,28);
+	color: rgb(255, 255, 255);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(211,211,211);
+	color: rgb(0,0,0);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Pesquisar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Apuiarés</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>90</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Tókio</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Cingapura</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>90</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string> Bangkok</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>150</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string> Frankfurt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>150</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Madri</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Paris</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 6px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Hong Kong</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 8px;
+	background-color:  	rgb(255,222,173);
+	color: rgb(0, 0, 0);
+	padding: 8px;
+}
+
+QPushButton:hover{
+	background-color:  	rgb(0,0,0);
+	color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    padding-top: 10px; /* Aumenta o espaçamento superior para simular o efeito de afundamento */
+    padding-bottom: 6px; /* Diminui o espaçamento inferior para simular o efeito de afundamento */
+}</string>
+     </property>
+     <property name="text">
+      <string>Istambul</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
